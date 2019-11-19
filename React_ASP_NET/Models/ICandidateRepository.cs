@@ -1,0 +1,10 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace React_ASP_NET.Models
+{
+    public interface ICandidateRepository : IDisposable
+    {
+        IEnumerable<Candidate> GetAll();
+    }
+}
